@@ -1,4 +1,5 @@
 export const CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"
+export const MEDIA_ASSET = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/"
 
 export const LOGO_ICON = (<svg className="VXJlj" viewBox="0 0 61 61" height="49" width="49">
         <g clipPath="url(#a)">
@@ -11,3 +12,5 @@ export const LOGO_ICON = (<svg className="VXJlj" viewBox="0 0 61 61" height="49"
             </clipPath>
         </defs>
     </svg>)
+
+export const MENU_ITEMS = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=19.1662566&lng=72.8525696&restaurantId="
