@@ -1,4 +1,4 @@
-import UserClass from "./User";
+
 const About = () =>{
 
     return (
@@ -40,7 +40,7 @@ const About = () =>{
                 Our team is dedicated to providing the <b>best user experience</b> and <b>high-quality content</b>.<br />
                 <span role="img" aria-label="rocket">🚀</span>
             </p>
-        </div><UserClass name={"Sourabh"} loaction={"Panchkula"} /></>
+        </div></>
     )
 }
 
