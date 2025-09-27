@@ -301,4 +301,137 @@ p.prop {
 .right {
   width: 45%;
 }
+
+@media (width <= 600px) {
+  body {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+  }
+
+  .header-img {
+    width: 100px;
+    height: auto;
+    margin-left: -19px;
+  }
+
+  .header-logo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-text {
+    align-items: flex-start;
+    margin-top: -30px;
+    margin-left: 0;
+  }
+
+  .logo {
+    font-size: 2.2rem;
+  }
+
+  .logo-text {
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 13px;
+  }
+
+  .nav-items {
+    margin: 10px 0;
+    display: none;
+  }
+
+  .nav-items ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul li {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+
+  .banner {
+    background-image: url("imgjpg.08935f70.jpg");
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 10px .5rem;
+  }
+
+  .banner-heading {
+    width: 100%;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .banner-info {
+    max-width: 100%;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+
+  .banner-photo {
+    margin-top: 2rem;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  .our_features_body {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .our_features_body .feature_list {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .reach-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .reach-info-section, .right, .complex_question_content > .left {
+    width: 100%;
+    padding-bottom: 5rem;
+  }
+
+  .complex_question_content {
+    flex-direction: column;
+  }
+
+  .complex_question_content .right .img img {
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    height: auto;
+    top: 0;
+  }
+
+  .shimmer-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .shimmer {
+    width: 90vw;
+    max-width: 300px;
+    height: 200px;
+    margin: 10px 0;
+  }
+
+  iframe {
+    width: 99%;
+  }
+}
 /*# sourceMappingURL=gurinder-singh-chandel.9e4c6fd2.css.map */
