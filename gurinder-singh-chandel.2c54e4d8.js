@@ -723,7 +723,7 @@ const appRouter = (0, _reactRouter.createBrowserRouter)([
         }, undefined),
         children: [
             {
-                path: "/",
+                path: "/gurinder-singh-chandel/",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
                     lineNumber: 25,
