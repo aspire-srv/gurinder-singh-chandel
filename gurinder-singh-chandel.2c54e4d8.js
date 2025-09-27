@@ -723,7 +723,7 @@ const appRouter = (0, _reactRouter.createBrowserRouter)([
         }, undefined),
         children: [
             {
-                path: "/",
+                path: "/gurinder-singh-chandel/",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
                     lineNumber: 25,
@@ -26114,7 +26114,7 @@ const Header = ()=>{
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-                                to: "/",
+                                to: "/gurinder-singh-chandel/",
                                 children: "Home "
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
@@ -28975,6 +28975,8 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _banner = require("./Banner");
 var _bannerDefault = parcelHelpers.interopDefault(_banner);
+var _createdBy = require("./CreatedBy");
+var _createdByDefault = parcelHelpers.interopDefault(_createdBy);
 var _feature = require("./Feature");
 var _featureDefault = parcelHelpers.interopDefault(_feature);
 var _knowMe = require("./KnowMe");
@@ -28986,17 +28988,22 @@ const Body = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bannerDefault.default), {}, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 9,
+                lineNumber: 10,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _knowMeDefault.default), {}, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 11,
+                lineNumber: 12,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reachUsDefault.default), {}, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 12,
+                lineNumber: 13,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _createdByDefault.default), {}, void 0, false, {
+                fileName: "src/components/Body.js",
+                lineNumber: 14,
                 columnNumber: 9
             }, undefined)
         ]
@@ -29012,7 +29019,7 @@ $RefreshReg$(_c, "Body");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./Banner":"bqdgj","./Feature":"b2Dvr","./KnowMe":"k7vab","./ReachUs":"dMcu1","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"bqdgj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","./Banner":"bqdgj","./Feature":"b2Dvr","./KnowMe":"k7vab","./ReachUs":"dMcu1","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./CreatedBy":"azpgO"}],"bqdgj":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$969e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$969e.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -29661,6 +29668,46 @@ var _c;
 $RefreshReg$(_c, "ReachUs");
 
   $parcel$ReactRefreshHelpers$a419.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"azpgO":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$2f4e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$2f4e.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2f4e.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const CreatedBy = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            "\xa9 2025 The Srv 24 Created By ",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "https://github.com/aspire-srv",
+                children: "Sourabh"
+            }, void 0, false, {
+                fileName: "src/components/CreatedBy.js",
+                lineNumber: 6,
+                columnNumber: 40
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/CreatedBy.js",
+        lineNumber: 5,
+        columnNumber: 9
+    }, undefined);
+};
+_c = CreatedBy;
+exports.default = CreatedBy;
+var _c;
+$RefreshReg$(_c, "CreatedBy");
+
+  $parcel$ReactRefreshHelpers$2f4e.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;

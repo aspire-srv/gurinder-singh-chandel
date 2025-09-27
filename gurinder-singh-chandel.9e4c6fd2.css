@@ -218,13 +218,13 @@ li a:hover {
 .social-link-email {
   color: #555;
   margin: 1rem 0;
-  text-decoration: none;
+  text-decoration: underline;
   display: block;
 }
 
 .social-link-phone {
   color: #555;
-  text-decoration: none;
+  text-decoration: underline;
   display: block;
 }
 
