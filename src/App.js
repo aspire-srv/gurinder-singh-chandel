@@ -21,7 +21,7 @@ const appRouter = createBrowserRouter([
     element: <AppLayout />,
     children: [
         {       
-            path:"/",
+            path:"/gurinder-singh-chandel/",
             element:<Body />
         },
       {

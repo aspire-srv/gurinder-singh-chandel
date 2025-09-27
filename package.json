@@ -1,22 +1,25 @@
 {
-  "name": "learnreact",
+  "name": "Lawyer-app",
   "version": "1.0.0",
-  "description": "master skill - react",
+  "description": "Website for advocate gurinder singh chandel",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aspire-srv/LearnReact.git"
+    "url": "git+https://github.com/aspire-srv/gurinder-singh-chandel.git"
   },
   "author": "Sourabh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aspire-srv/LearnReact/issues"
+    "url": "https://github.com/aspire-srv/gurinder-singh-chandel/issues"
   },
-  "homepage": "https://github.com/aspire-srv/LearnReact#readme",
+  "homepage": "https://github.com/aspire-srv/gurinder-singh-chandel",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.15.4"
   },
   "dependencies": {
@@ -27,6 +30,6 @@
     "tailwindcss": "^4.1.11"
   },
   "browserslist": [
-    "last 2 versions"
+    "last 10 versions"
   ]
 }

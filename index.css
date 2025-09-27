@@ -209,13 +209,13 @@ li a{
 }
 .social-link-email{
     display: block;
-    text-decoration: none;
+    text-decoration: underline;
     color: #555;
     margin: 1rem 0;
 }
 .social-link-phone{
     display: block;
-    text-decoration: none;
+    text-decoration: underline;
     color: #555;
 }
 p.prop {
@@ -283,4 +283,117 @@ p.prop {
 }
 .right{
     width:45%
+}
+
+@media (max-width: 600px) {
+    body {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 0;
+    }
+    .header-img {
+        margin-left: -19px;
+        width: 100px;
+        height: auto;
+    }
+    .header-logo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header-text {
+        margin-top: -30px;
+        margin-left: 0;
+        align-items: flex-start;
+    }
+    .logo {
+        font-size: 2.2rem;
+    }
+    .logo-text {
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 13px;
+    }
+    .nav-items {
+        display: none;
+        margin: 10px 0;
+    }
+    .nav-items ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    ul li {
+        margin: 5px 0;
+        font-size: 1rem;
+    }
+    .banner {
+        background-image: url('../gurinder-singh-chandel/src/images/imgjpg.jpg');
+        padding: 10px 0.5rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        background-size: cover;
+    }
+    .banner-heading {
+        font-size: 2rem;
+        width: 100%;
+        line-height: 2.5rem;
+    }
+    .banner-info {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        max-width: 100%;
+        font-weight: 600;
+        /* color: #fff; */
+        margin-top: 20px;
+    }
+    .banner-photo {
+        margin-top: 2rem;
+    }
+    .container {
+        width: 100%;
+        padding: 0 5px;
+    }
+    .our_features_body {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .our_features_body .feature_list {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .reach-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .reach-info-section,
+    .right,
+    .complex_question_content > .left {
+        width: 100%;
+                padding-bottom: 5rem;
+    }
+    .complex_question_content {
+        flex-direction: column;
+    }
+    .complex_question_content .right .img img {
+        height: auto;
+        width: 100%;
+        border-bottom-right-radius: 20px;
+        top: 0;
+    }
+    .shimmer-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .shimmer {
+        width: 90vw;
+        max-width: 300px;
+        height: 200px;
+        margin: 10px 0;
+    }
+    iframe{
+        width: 99%;
+    }
 }

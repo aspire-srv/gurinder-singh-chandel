@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import CreatedBy from "./CreatedBy";
 import Features from "./Feature";
 import KnowMe from "./KnowMe";
 import ReachUs from "./ReachUs";
@@ -10,6 +11,7 @@ const Body = () =>{
         {/* <Features /> */}
         <KnowMe />
         <ReachUs />
+        <CreatedBy />
         </>
     )
 }
